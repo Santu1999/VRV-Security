@@ -1,0 +1,9 @@
+rbac-project/
+├── app.py
+├── models.py
+├── routes/
+│   ├── auth.py
+│   └── protected.py
+├── middleware/
+│   └── auth.py
+└── config.py
