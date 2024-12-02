@@ -1,0 +1,19 @@
+SECRET_KEY=your_secret_key
+JWT_SECRET_KEY=your_jwt_secret
+DATABASE_URL=sqlite:///rbac.db
+
+
+python app.py
+
+
+{
+  "username": "admin",
+  "password": "admin123",
+  "role": "Admin"
+}
+
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
